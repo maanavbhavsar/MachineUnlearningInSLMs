@@ -7,4 +7,11 @@ This project explores **Machine Unlearning** in small language models (SLMs) to 
 ### Objective
 - Enable selective unlearning of sensitive or outdated information in language models.
 - Minimize the computational cost of retraining while preserving the model's generalization capabilities.
+- Evaluate the trade-offs between knowledge forgetting, fluency, and accuracy using diverse metrics.
+
+### Models
+The following small language models will be used in this project:
+- **Llama-3.2-3B-Instruct**
+- **Nemotron-Mini-4B-Instruct**
+- **Phi-3.5-mini-instruct**
 
