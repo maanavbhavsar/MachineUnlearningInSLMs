@@ -10,8 +10,12 @@ This project explores **Machine Unlearning** in small language models (SLMs) to 
 - Evaluate the trade-offs between knowledge forgetting, fluency, and accuracy using diverse metrics.
 
 ### Models
-The following small language models will be used in this project:
+The following small language models were used in this project:
 - **Llama-3.2-3B-Instruct**
 - **Nemotron-Mini-4B-Instruct**
 - **Phi-3.5-mini-instruct**
+
+### Datasets
+- **Shiyu-Lab/Wikipedia Person Unlearn**: Used to train and evaluate unlearning methods.
+- **TruthfulQA**: Used to assess the model's ability to generate accurate and truthful responses post-unlearning.
 
