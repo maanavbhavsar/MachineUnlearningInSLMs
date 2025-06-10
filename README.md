@@ -19,3 +19,13 @@ The following small language models were used in this project:
 - **Shiyu-Lab/Wikipedia Person Unlearn**: Used to train and evaluate unlearning methods.
 - **TruthfulQA**: Used to assess the model's ability to generate accurate and truthful responses post-unlearning.
 
+## Methodology
+
+1. **Data Preparation**
+   - Loaded datasets and split them into training and testing sets (80-20 split).
+   - Generated structured prompts and perturbations for fine-tuning using the Nemotron-Mini-4B-Instruct model.
+
+2. **Fine-Tuning**
+   - Applied **DPO** to enable the model to prefer specific outputs while forgetting targeted knowledge.
+   - Utilized **PEFT with LoRA** to efficiently adapt large language models with minimal additional parameters.
+
