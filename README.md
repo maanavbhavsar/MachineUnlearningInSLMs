@@ -29,3 +29,15 @@ The following small language models were used in this project:
    - Applied **DPO** to enable the model to prefer specific outputs while forgetting targeted knowledge.
    - Utilized **PEFT with LoRA** to efficiently adapt large language models with minimal additional parameters.
 
+3. **Performance Evaluation**
+   - Metrics:
+     - **ROUGE-L**: Evaluates overlap with reference answers (lower values indicate effective unlearning).
+       - Example: Llama-3.2-3B-Instruct achieved 0.1503.
+     - **BLEU**: Measures linguistic overlap (lower values reflect better unlearning).
+       - Example: Llama-3.2-3B-Instruct achieved 0.0329.
+
+## Results
+- **Llama-3.2-3B-Instruct**: Demonstrated the best balance of unlearning and fluency with the lowest ROUGE-L and BLEU scores.
+- **Nemotron-Mini-4B-Instruct**: Struggled with residual knowledge retention and coherence.
+- **Phi-3.5-mini-instruct**: Achieved partial unlearning but retained significant knowledge.
+
