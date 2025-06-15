@@ -41,3 +41,42 @@ The following small language models were used in this project:
 - **Nemotron-Mini-4B-Instruct**: Struggled with residual knowledge retention and coherence.
 - **Phi-3.5-mini-instruct**: Achieved partial unlearning but retained significant knowledge.
 
+## How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/maanavbhavsar/MachineUnlearningInSLMs.git
+   cd MachineUnlearningInSLMs
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Open the Jupyter Notebook:
+   ```bash
+   jupyter notebook MachineUnlearningInSLM.ipynb
+   ```
+
+4. Follow the notebook instructions to:
+   - Load datasets
+   - Fine-tune models
+   - Evaluate performance metrics
+
+## Key Contributions
+- Designed and implemented targeted unlearning strategies for small language models.
+- Demonstrated the effectiveness of DPO and PEFT with LoRA in achieving computationally efficient fine-tuning.
+- Provided comprehensive analysis using multiple metrics to validate the success of unlearning.
+
+## Future Work
+- Explore advanced unlearning techniques like counterfactual generation and memory-based unlearning.
+- Extend experiments to larger language models for scalability.
+- Enhance evaluation metrics with human judgment and task-specific scoring.
+
+## Contact
+For any questions or contributions, feel free to reach out:
+- **Name**: Ujwal Vikas Agrawal
+- **Email**: ujwal.agrawal@asu.edu
+- **LinkedIn**: [linkedin.com/in/ujwalagrawal](https://linkedin.com/in/ujwalagrawal)
+
