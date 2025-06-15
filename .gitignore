@@ -23,3 +23,22 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Model files (if large)
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Data files
+*.json
+*.csv
+*.parquet
+!requirements.txt
+
+# Logs
+*.log
+logs/
+
+# Weights & Biases
+wandb/
+
