@@ -74,9 +74,3 @@ The following small language models were used in this project:
 - Extend experiments to larger language models for scalability.
 - Enhance evaluation metrics with human judgment and task-specific scoring.
 
-## Contact
-For any questions or contributions, feel free to reach out:
-- **Name**: Ujwal Vikas Agrawal
-- **Email**: ujwal.agrawal@asu.edu
-- **LinkedIn**: [linkedin.com/in/ujwalagrawal](https://linkedin.com/in/ujwalagrawal)
-
